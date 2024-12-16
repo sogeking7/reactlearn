@@ -1,5 +1,3 @@
-import { Greeting } from "@/components/ReactConf/React Today and Tomorrow/Greeting";
-import { GreetingNew } from "@/components/ReactConf/React Today and Tomorrow/GreetingNew";
 import { UseCallback } from "@/components/UseCallback/UseCallback";
 import { UseCallbackNew } from "@/components/UseCallback/UseCallbackNew";
 import { UseContext } from "@/components/UseContext/UseContext";
@@ -16,29 +14,26 @@ import { UseReducerNew } from "@/components/UseReducer/UseReducerNew";
 import { UseRef } from "@/components/UseRef/UseRef";
 import { UseState } from "@/components/UseState/UseState";
 import { UseTransition } from "@/components/UseTransition/UseTransition";
-import React from "react";
 
 export default function Page() {
   return (
     <div className="flex flex-col gap-6 w-full items-center p-6 bg-zinc-900">
-      {/* <UseState /> */}
-      {/* <UseReducer /> */}
-      {/* <UseReducerNew /> */}
-      {/* <UseEffect /> */}
-      {/* <UseRef /> */}
-      {/* <UseLayoutEffect /> */}
-      {/* <UseImperativeHandle /> */}
-      {/* <UseContext /> */}
-      {/* <UseContextNew /> */}
-      {/* <UseMemo /> */}
-      {/* <UseMemoNew /> */}
-      {/* <UseCallback /> */}
-      {/* <UseCallbackNew /> */}
-      {/* <UseId /> */}
-      {/* <UseTransition /> */}
-      {/* <UseDefferedValue /> */}
-      <Greeting />
-      <GreetingNew />
+      <UseState />
+      <UseReducer />
+      <UseReducerNew />
+      <UseEffect />
+      <UseRef />
+      <UseLayoutEffect />
+      <UseImperativeHandle />
+      <UseContext />
+      <UseContextNew />
+      <UseMemo />
+      <UseMemoNew />
+      <UseCallback />
+      <UseCallbackNew />
+      <UseId />
+      <UseTransition />
+      <UseDefferedValue />
     </div>
   );
 }
